@@ -1,5 +1,5 @@
 .square {
-  background-color: #61DBFB;
+  background-color: var(--material-theme-sys-light-primary);
   width: 150px;
   height: 150px;
   display: flex;
