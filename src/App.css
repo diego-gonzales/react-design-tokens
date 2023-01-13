@@ -4,5 +4,12 @@
   align-items: center;
   width: 100%;
   min-height: 100vh;
+}
+
+.main-container-light {
   background-color: var(--material-theme-sys-light-background);
+}
+
+.main-container-dark {
+  background-color: var(--material-theme-sys-dark-background);
 }

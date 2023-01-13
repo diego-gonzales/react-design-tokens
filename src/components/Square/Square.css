@@ -1,8 +1,15 @@
 .square {
-  background-color: var(--material-theme-sys-light-primary);
   width: 150px;
   height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.square-light {
+  background-color: var(--material-theme-sys-light-primary);
+}
+
+.square-dark {
+  background-color: var(--material-theme-sys-dark-primary);
 }
