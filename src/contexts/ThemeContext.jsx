@@ -7,8 +7,8 @@ const initialTheme = "light";
 export const ThemeProvider = ({ children }) => {
   const [theme, setTheme] = useState(initialTheme);
 
-  const changeTheme = (theme) => {
-    setTheme(theme);
+  const changeTheme = () => {
+    setTheme(theme === 'light' ? 'dark' : 'light');
   };
 
   const data = { theme, changeTheme };

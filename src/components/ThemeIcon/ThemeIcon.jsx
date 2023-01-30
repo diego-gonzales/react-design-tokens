@@ -7,19 +7,11 @@ import solLogo from "../../assets/sol.svg";
 const ThemeIcon = () => {
   const { theme, changeTheme } = useContext(ThemeContext);
 
-  const handleClick = () => {
-    if (theme === "light") {
-      changeTheme("dark");
-    } else {
-      changeTheme("light");
-    }
-  };
-
   return (
     <div className="theme-icon-container">
       <img
         src={theme === "light" ? lunaLogo : solLogo}
-        onClick={handleClick}
+        onClick={changeTheme}
         className="theme-icon"
       />
     </div>
