@@ -7,9 +7,9 @@
 }
 
 .square-light {
-  background-color: var(--material-theme-sys-light-primary);
+  background-color: var(--carpenter-core-color-light-primary);
 }
 
 .square-dark {
-  background-color: var(--material-theme-sys-dark-primary);
+  background-color: var(--carpenter-core-color-dark-primary);
 }

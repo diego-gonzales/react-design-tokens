@@ -7,9 +7,11 @@
 }
 
 .main-container-light {
-  background-color: var(--material-theme-sys-light-background);
+  background-color: var(--carpenter-core-color-light-baseplate);
+  color: var(--carpenter-core-color-light-on-primary);
 }
 
 .main-container-dark {
-  background-color: var(--material-theme-sys-dark-background);
+  background-color: var(--carpenter-core-color-dark-baseplate);
+  color: var(--carpenter-core-color-dark-on-primary)
 }
