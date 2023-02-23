@@ -1,7 +1,9 @@
-.theme-icon-container {
+.theme-button {
   position: fixed;
   top: 4rem;
   right: 3.5rem;
+  border: none;
+  background-color: transparent;
 }
 
 .theme-icon {

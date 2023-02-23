@@ -8,16 +8,24 @@
 
 html {
   font-size: 62.5%;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-#root {
-  width: 100%;
-  min-height: 100vh;
+  font-family: system-ui;
 }
 
 body {
   font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+.container-light {
+  background-color: var(--carpenter-core-color-light-baseplate);
+  color: var(--carpenter-core-color-light-on-primary);
+}
+
+.container-dark {
+  background-color: var(--carpenter-core-color-dark-baseplate);
+  color: var(--carpenter-core-color-dark-on-primary)
 }
